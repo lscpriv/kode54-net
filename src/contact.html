@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss" />
+    <title>Contact, and donate to, Christopher Snowhill</title>
+</head>
+
+<body>
+    <div class="container py-4 px-3 mx-auto">
+        <h1>Donate</h1>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://paypal.me/kode54" target="_self">PayPal</a></li>
+            <li class="list-inline-item"><a href="https://ko-fi.com/kode54" target="_self">Ko-fi</a></li>
+            <li class="list-inline-item"><a href="https://patreon.com/kode54" target="_self">Patreon</a></li>
+        </ul>
+        <h1>Contact me</h1>
+        <h2>Social media and other sites</h2>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://twitter.com/kode54" target="_self">Twitter</a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/kode54" target="_self">Facebook</a></li>
+            <li class="list-inline-item"><a href="https://github.com/kode54" target="_self">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://bitbucket.org/losnoco" target="_self">Bitbucket</a></li>
+            <li class="list-inline-item"><a href="https://social.treehouse.systems/@kode54" target="_self">Mastodon</a></li>
+            <li class="list-inline-item"><a href="https://keybase.io/kode54" target="_self">Keybase</a></li>
+            <li class="list-inline-item"><a href="https://t.me/kode54" target="_self">Telegram</a></li>
+        </ul>
+        <h2>Or by email</h2>
+
+        <form name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true">
+            <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required />
+            </div>
+            <div class="mb-3">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message" required maxlength="1000"></textarea>
+            </div>
+            <div class="mb-3">
+                <div data-netlify-recaptcha="true"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
