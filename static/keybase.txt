@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kode54
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kode54.net
+  * I am kode54 (https://keybase.io/kode54) on keybase.
+  * I have a public key ASDagPxwIQgVN9dx00eojG0Z096wurpMtOvGreiQzfJ1Lwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b6aaea12f80279b1a2d3761c523fdd6f33f4273bfead67d6dfa6e76764801b150a",
+      "host": "keybase.io",
+      "kid": "0120da80fc7021081537d771d347a88c6d19d3deb0baba4cb4ebc6ade890cdf2752f0a",
+      "uid": "b1e66017a4de7344fad370fbdda00c19",
+      "username": "kode54"
+    },
+    "merkle_root": {
+      "ctime": 1591219079,
+      "hash": "44176ca0270b3736992eec2b9b3b23f55c25759fb1a33b1ddf682b20f4c5a667e318a50a77fb31a45d0f259151368c994bc7c5aabb1d131e7cd728ecae1a0625",
+      "hash_meta": "c4161637609cf5aef17b6281c8fbeeec4946826f2d6acfa09dc7a2e3b4a6a6d8",
+      "seqno": 16515226
+    },
+    "service": {
+      "entropy": "RHf15KEU6V37K+N9hZCEJ1ud",
+      "hostname": "kode54.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1591219100,
+  "expire_in": 504576000,
+  "prev": "a1fa9ed2f6232f080baabf82b372cd5e486f7e88336bfbb6869573dabc45cc75",
+  "seqno": 318,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2oD8cCEIFTfXcdNHqIxtGdPesLq6TLTrxq3okM3ydS8Kp3BheWxvYWTETJcCzQE+xCCh+p7S9iMvCAuqv4Kzcs1eSG9+iDNr+7aGlXPavEXMdcQgiG0Sh1RQ9AYK4bIkHiGbU+D9cg++WpIUURRHESX9/ZACAcKjc2lnxECHEkZGaYtn9rnXe0XlpXB3tV/RKuuzQTQs6/B7vpnEkAibX29HqR8erDdYi/6cshsLJstnY7ZJVPr+4eFHDkoGqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgFyJyGxl2YT8vjMz0BKE+b+2+2gQo771dIDgFeuv6OoyjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kode54
+
+==================================================================
