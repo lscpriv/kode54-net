@@ -26,10 +26,19 @@ $link-decoration: none;
 html,
 body {
     font-family: 'Roboto Flex';
+    font-synthesis: none;
 }
 
 h1 {
     font-variation-settings: 'wght' 1000, 'wdth' 102.9, 'YTAS' 854, 'XTRA' 529, 'YTDE' -170, 'YTFI' 788, 'GRAD' -200, 'YTLC' 535;
+}
+
+a:link {
+    font-variation-settings: 'wght' 450, 'wdth' 125;
+    transition: all 125ms ease;
+    &:hover {
+        font-variation-settings: 'wght' 800, 'wdth' 94;
+    }
 }
 
 h2 {
@@ -39,15 +48,28 @@ h2 {
 .headline {
     font-variation-settings: 'wght' 431, 'wdth' 116.2, 'XTRA' 371, 'YTAS' 795;
     font-size: 16pt;
+    & strong,
+    b {
+        font-variation-settings: 'wght' 700, 'wdth' 116.2, 'XTRA' 371, 'YTAS' 795;
+    }
 }
 
-code {
+p {
+    text-align: justify;
+}
+
+code,
+pre {
     font-family: 'Inconsolata';
-    font-weight: 538;
-    font-variation-settings: 'wdth' 86;
+    font-variation-settings: 'wght' 538, 'wdth' 86 !important;
 }
 
+b,
+strong {
+    font-variation-settings: 'wght' 700;
+}
+
+i,
 em {
-    font-synthesis: none;
     font-variation-settings: 'slnt' -5 !important;
 }

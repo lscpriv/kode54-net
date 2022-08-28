@@ -13,7 +13,7 @@
     },
     "name": "kode54",
     "version": "1.0.0",
-    "source": "src/index.html",
+    "source": "src/index.pug",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "license": "MIT"
 }
