@@ -1,7 +1,7 @@
 /cog https://cog.losno.co
-/foobar2000-components https://www.foobar2000.org/components/author/kode54
-/fb2k-idx https://www.foobar2000.org/components/author/kode54
-/fb2k https://www.foobar2000.org/components/author/kode54
+/foobar2000-components /fb2k.html
+/fb2k-idx /fb2k.html
+/fb2k /fb2k.html
 /bassmididrv https://github.com/KeppySoftware/OmniMIDI
 /av.jpg https://secure.gravatar.com/avatar/d06436ad17e8bce09279190a9b085ff2?s=184
 /about /
