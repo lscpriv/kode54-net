@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        block title
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(rel='stylesheet' href='style.scss')
+
+    body 
+        .container.py-4.px-3.mx-auto.my-auto 
+            block content
+        .footer
+            .container.py-4.px-3.mx-auto.my-auto
+                em &copy; 2000&mdash;2022 Christopher Snowhill. All rights reserved except where indicated.
+                .float-end
+                    a(href='https://www.netlify.com')
+                        img(src='https://www.netlify.com/v3/img/components/netlify-color-accent.svg' alt='Deploys by Netlify')
