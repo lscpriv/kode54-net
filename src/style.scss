@@ -2,56 +2,17 @@ $primary: #0d6775;
 $link-decoration: none;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-/* #region Google fonts css */
-
-@font-face {
-    font-family: 'Roboto Flex';
-    src: local('Roboto Flex'), url('RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: 'Inconsolata';
-    src: local('Inconsolata'), url('Inconsolata[wdth,wght].ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-
-
-/* #regionend */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@400;700&display=swap');
 
 html,
 body {
-    font-family: 'Roboto Flex';
+    font-family: 'Atkinson Hyperlegible';
     font-synthesis: none;
 }
 
-h1 {
-    font-variation-settings: 'wght' 1000, 'wdth' 102.9, 'YTAS' 854, 'XTRA' 529, 'YTDE' -170, 'YTFI' 788, 'GRAD' -200, 'YTLC' 535;
-}
-
-a:link {
-    font-variation-settings: 'wght' 450, 'wdth' 125;
-    transition: all 125ms ease;
-    &:hover {
-        font-variation-settings: 'wght' 800, 'wdth' 94;
-    }
-}
-
-h2 {
-    font-variation-settings: 'wght' 800, 'wdth' 80, 'YTAS' 854, 'XTRA' 529, 'YTDE' -170, 'YTFI' 788, 'GRAD' -200, 'YTLC' 535;
-}
 
 .headline {
-    font-variation-settings: 'wght' 431, 'wdth' 116.2, 'XTRA' 371, 'YTAS' 795;
     font-size: 16pt;
-    & strong,
-    b {
-        font-variation-settings: 'wght' 700, 'wdth' 116.2, 'XTRA' 371, 'YTAS' 795;
-    }
 }
 
 p {
@@ -62,14 +23,4 @@ code,
 pre {
     font-family: 'Inconsolata';
     font-variation-settings: 'wght' 538, 'wdth' 86 !important;
-}
-
-b,
-strong {
-    font-variation-settings: 'wght' 700;
-}
-
-i,
-em {
-    font-variation-settings: 'slnt' -5 !important;
 }
