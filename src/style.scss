@@ -4,7 +4,7 @@ $link-decoration: none;
 
 html,
 body {
-    font-family: bakemono-variable, sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-synthesis: none;
     hyphens: auto;
 }
@@ -15,9 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: bakemono-variable, sans-serif;
-    font-variation-settings: "MONO" 0, "wght" 800;
-    font-style: normal;
+    font-weight: 400;
 }
 
 .headline {
@@ -26,6 +24,5 @@ h6 {
 
 code,
 pre {
-    font-family: bakemono-variable, sans-serif;
-    font-variation-settings: "mono" 1000;
+    font-family: 'Space Mono', monospace;
 }
